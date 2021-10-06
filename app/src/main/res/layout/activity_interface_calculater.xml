@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterfaceCalculater">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/clearBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/parenthesesBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parentheses" />
+
+            <Button
+                android:id="@+id/exponentBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exponent" />
+
+            <Button
+                android:id="@+id/divideBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/divide" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sevenBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/eightBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/nineBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/multiplyBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multiply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fourBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/fiveBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/sixBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/subtractBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subtract" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/oneBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/twoBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/threeBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/addBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/plusMinusBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plusMinus" />
+
+            <Button
+                android:id="@+id/zeroBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/pointBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/point" />
+
+            <Button
+                android:id="@+id/equalsBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/equals" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
