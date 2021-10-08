@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheCalculatora">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/styles" />
+
         <activity
             android:name=".InterfaceCalculater"
             android:exported="true"
